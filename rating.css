@@ -1,0 +1,45 @@
+.ratingcolor-red {
+	color: #FF0000;
+	font-weight: bold;
+}
+.ratingcolor-orange {
+	color: #FF8C00;
+	font-weight: bold;
+}
+.ratingcolor-purple {
+	color: #a0a;
+	 font-weight: bold;
+}
+.ratingcolor-blue {
+	color: blue;
+	font-weight: bold;
+}
+
+.ratingcolor-cyan {
+	color: #03A89E ;
+	font-weight: bold;
+}
+
+.ratingcolor-green {
+	color: green ;
+	font-weight: bold;
+}
+.ratingcolor-gray {
+	color: gray ;
+	font-weight: bold;
+}
+table {
+    margin-left: auto;
+    margin-right: auto;
+    /* 或者直接使用 margin: 0 auto; */
+    border-collapse: collapse;
+    width: 50%;  /* 表格宽度，可以根据需要调整 */
+}
+/* 让表格内的文字水平居中 */
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;  /* 水平居中 */
+    vertical-align: middle;  /* 垂直居中（可选） */
+}
+
